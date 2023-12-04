@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carservice7</title>
+    <link rel="stylesheet" href="estilosgrupo7.css">
+    <link rel="shortcut icon" href="imagenes/favicon_1.ico" type="image/x-icon">
+  
+
+    <!-- Enlazar la pagina HTML con la libreria FontAwesone-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+     <!--barra superior--->
+     <header id="barra-superior">
+        <div class="contenedor">
+            <div class="fila">
+                <div class="region-postventa">
+                    <a href="tel:+515895230"> 
+                        <i class="fa-solid fa-phone"></i>
+                        +51(01) 589-5230
+                    </a>
+                    <a href="mailto:carservice7@outlook.com?subjetc=estimados necesito informacion de su servicio.">
+                        <i class="fa-regular fa-envelope"></i>
+                        carservice7@outlook.com
+                    </a>
+                </div>
+                <div class="region-redessociales">
+                    <a href="https://www.facebook.com/profile.php?id=100063951408752" target="_blank" title="Síguenos en Facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    
+                    <a href="https://www.youtube.com/@BoschCarService" target="_blank" title="Síguenos en Youtube">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+
+                    <a href="https://instagram.com/carservicesinreading?igshid=MmVlMjlkMTBhMg==" target="_blank" title="Síguenos en Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://www.whatsapp.com/" target="_blank" title="Síguenos en Whastapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- CABECERA-->
+    <header id="cabecera2" class="espaciado">
+       <div class="contenedor"> 
+               <nav class="nav-bar">
+                   <div class="logo">
+                       <a href="index.html">
+                           <img src="imagenes/car_png.png" class="ajuste-carro">
+                       </a>
+                   </div>
+                   
+                   <ul class="nav-menu">
+                       <li>
+                           <a class="nav-menu-link" href="index.html" style="text-decoration: none;">Home</a>
+                       </li>
+                       <li>
+                           <a class="nav-menu-link" href= "marcas.html" style="text-decoration: none;">Marcas</a>
+                       </li>
+                       <li>
+                           <a class="nav-menu-link" href="tecnicos.html" style="text-decoration: none;">Tecnicos</a>
+                       </li>
+                       <li>
+                           <a class="nav-menu-link" href="autopartes.html" style="text-decoration: none;">Autopartes</a>
+                       </li>
+                       <li>
+                           <a class="nav-menu-link  pagina-presente" href="postventa.html" style="text-decoration: none;">Postventa</a>
+                       </li>
+                       
+                   </ul>
+   
+                   <div class="iconos">
+                           <i class="fa-brands fa-twitter"></i>
+                           <i class="fa-brands fa-telegram"></i>
+                           <i class="fa-brands fa-spotify"></i>
+                   </div>
+               </nav>
+       </div>
+   </header>
+
+<!-- Sección para indicar cuál es la página actual -->
+<section id="barra-actual" class="espaciado">
+    <div class="contenedor">
+        <h1>Postventa</h1>
+        <p>
+            <i class="fa-solid fa-location-dot"></i>
+            <a href="index.html">Inicio</a> > Postventa
+        </p>
+    </div>
+</section>
+
+
+<!-- Sección para un mapa interactivo -->
+<section id="registro-mapa">
+    <iframe class="ajustar-mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.806071953578!2d-77.0274112241114!3d-12.125417443371857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c81c605ea5e1%3A0x17328a8b49d37914!2sISIL%20-%20Miraflores!5e0!3m2!1ses-419!2spe!4v1700533743659!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+
+<!-- Formulario de contacto -->
+<section id="registro-cliente" class="espaciado">
+    <div class="contenedor">
+        <h2>CONTACTANOS</h2>
+        <p>Somos un centro especializado en la limpieza y detallado de vehículos con experiencia en el mercado local. Nuestro equipo está conformado por jóvenes profesionales y especialistas de 1er nivel en el cuidado integral de vehículos.</p>
+        <div class="fila">
+            <div class="columna">
+                <!-- Objeto formulario -->
+                <form action="registrar-postulante.php" class="ingreso-datos">
+                    <h3>SERVICIO</h3>
+                    <div>
+                        <input class="registro-entrada" type="text" placeholder="Nombre completo *" required>
+                    </div>
+                    <div>
+                        <input class="registro-entrada" type="tel" placeholder="Telefono *" required>
+                    </div>
+                    <div>
+                        <input class="registro-entrada" type="email" placeholder="Correo Electronico *" required>                            
+                    </div>
+                    <div>
+                        <input class="registro-entrada" type="text" placeholder="Ingrese Mensaje *" required>
+                    </div>
+
+                    <p>
+                        <input type="checkbox" required>
+                        He leído los <a target="_blank" href="https://isil.pe/politicas-de-privacidad/">términos y condiciones</a>  y acepto la política de privacidad de mis datos.
+                    </p>
+
+                    <p>
+                        <input type="submit" value="Rgistrarse" class="boton-enviar">
+                    </p>
+                </form>
+            </div>
+            <div class="columna">
+                <img class="ajustar-ancho" src="imagenes/contacto-chica.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Pie de página -->
+<footer id="pie" class="espaciado">
+    <div class="contenedor">
+        <div class="fila">
+            <div>
+                <p>&copy; 2023 - GRUPO 7 Derechos reservados</p>
+            </div>
+
+            <div>
+                <a href="https://www.facebook.com/ISILpe" target="_blank" title="Síguenos en Facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                
+                <a href="https://www.youtube.com/@ISILPERUAprendeHaciendo" target="_blank" title="Síguenos en Youtube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+
+                <a href="https://www.instagram.com/isil_pe" target="_blank" title="Síguenos en Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>    
+        </div>
+    </div>
+</footer>
+
+<!-- Botón para ir al inicio de la página -->
+<a href="#" class="scroll-ir-arriba">
+    <i class="fa-solid fa-angle-up"></i>
+</a>
+</body>
+</html>
